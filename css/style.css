@@ -1,0 +1,530 @@
+*{  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height:100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+header{
+    width:100%;
+    height:90vh;
+    background-image: url(/imagens/capa.png);
+    background-size:cover;
+    background-position: center;
+    font-weight: 300;
+}
+
+.logo{
+    width:160px;
+    height:40px;
+    background-color: transparent;
+    position:relative;
+    top:50px;
+    left:30px;
+}
+
+.logo > h1{
+    color:white;
+    text-align: center;
+}
+
+header nav.desktop-menu ul{
+    display:flex;
+    justify-content: end;
+    padding:1.5%;
+    list-style-type: none;
+}
+
+header nav.desktop-menu a{
+    text-decoration:none;
+    margin-right:10px;
+    font-size:20px;
+    color:white;
+}
+
+.chamada-1{
+    position:absolute;
+    left:50%;
+    top:40%;
+}
+
+.chamada-1 h2{
+    color:white;
+    font-size:35px;
+    font-weight:300;
+}
+
+.chamada-1 p{
+    color:white;
+    font-size: 14px;
+    margin-top:10px
+}
+
+section.services{
+    width:100%;
+    background-color:#472562;
+    padding:0 2%;
+    height:428px;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.text-1{
+    color:white;
+    position:relative;
+    left:50px;
+    padding-top:30px;
+    top:30px;
+    width:50%;
+}
+
+.text-1 h2{
+    font-weight:300;
+    font-size:36px;
+    
+}
+
+.text-1 p{
+    font-size:19px;
+    font-weight:300;
+    margin-top:30px;
+}
+
+.text-1 li{
+    font-size: 15px;
+    list-style-position:inside;
+    margin-top:4px;
+}
+
+.btn-1{
+    background-color:#ff703d;
+    width:165px;
+    height:44px;
+    color:white;
+    cursor:pointer;
+    margin-top:50px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 44px;
+    display: block;
+}
+
+.device-service{
+    width:40%;
+    height:500px;
+    position:absolute;
+    top:700px;
+    left:60%;
+    background-image: url(/imagens/celular.png);
+    background-size:60% auto;
+    background-repeat:no-repeat;
+}
+
+.container i{
+    display:none;
+}
+
+.mobile{
+    display:none;
+}
+
+
+section.ss2{
+    padding:80px 2%;
+    background-color:white;
+    text-align: center;
+    height:500px;
+}
+
+.ss2 h2{
+    color:#472562;
+    font-weight:300;
+}
+
+.ss2 p{
+    margin-top:30px;
+    max-width:700px;
+    display:inline-block;
+}
+
+
+.box{
+    width:70%;
+    height:450px;
+    background-color: white;
+    margin-top:20px;
+    display:inline-block;
+    text-align: center;
+    box-shadow: 1px 2px 4px 6px #ccc;
+    z-index:3;
+    position:relative;
+}
+
+.box > p{
+    width:100%;
+    height:40px;
+    position:relative;
+    top:-6.5%;
+    background-color: black;
+}
+
+section.ss3{
+    width:100%;
+    display:flex;
+    
+}
+
+.pt1{
+    width:50%;
+    height:600px;
+    background:#6d06c2ca;
+    color:white;
+    z-index:1;
+    position: relative;
+}
+
+.pt1 h2{
+    position: absolute;
+    top:250px;
+    padding-left:30px;
+}
+
+.pt1 p{
+    max-width:500px;
+    padding:2%;
+    margin-top:290px
+}
+
+.pt2{
+    width:50%;
+    height:600px;
+    background:gray;
+    color:white;
+    z-index:1;
+    position: relative;
+}
+
+.pt2 h2{
+    position: absolute;
+    top:250px;
+    padding-left:30px;
+    padding:4%;
+}
+
+.pt2 p{
+    max-width:500px;
+    padding:2%;
+    margin-top:290px
+}
+
+.pt2 span{
+    padding:2%;
+}
+
+section.ss4{
+    width:100%;
+    min-height:100%;
+    background-color:#472562;
+    padding:70px 2%;
+}
+
+
+
+.form{
+    float:left;
+    width:50%;
+    color:white;
+    padding-left:10px;
+    
+}
+
+.form h2{
+    font-size:23px;
+    font-weight:300;
+    margin-bottom:20px;
+    padding-left:3%;
+}
+
+.form p{
+    font-size:15px;
+    font-weight:300;
+    max-width:400px;
+    padding-left:3%;
+}
+
+.form form{
+    margin:15px;
+}
+
+.form > form > .clear{
+    clear:both;
+}
+
+.form form textarea{
+    width:100%;
+    max-width:480px;
+    padding:8px;
+    margin-top:15px;
+    border:1px solid rgb(200,200,200);
+    height:160px;
+
+}
+
+.form form input[type=text]{
+    width:100%;
+    max-width:480px;
+    height:58px;
+    padding-left:8px;
+    line-height:58px;
+    border:1px solid rgb(200,200,200);
+    margin-top:8px;
+}
+
+.form form input[type=submit]{
+    background-color:#ff703d;
+    width:165px;
+    height:44px;
+    color:white;
+    cursor:pointer;
+    margin-top:50px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 44px;
+    display: block;
+    border:0;
+}
+
+.googleMaps{
+    width:50%;
+    float:left;
+    color:white;
+}
+
+.googleMaps h2{
+    font-size: 23px;
+    font-weight:300;
+}
+
+.maps{
+    width:80%;
+    height:80%;
+    background-color:white;
+    border:5px solid rgb(200,200,200);
+    margin-top:10px;
+}
+
+footer{
+    padding:40px 0;
+    background:#192123;
+    color:white;
+}
+
+footer p:nth-child(1){
+    float:left;
+    font-size:14px;
+}
+
+footer p:nth-child(2){
+    float: right;
+    font-size:14px;
+}
+
+@media screen and (max-width:880px){
+    .chamada-1{
+        position:absolute;
+        left:30%;
+    }
+
+    .device-service{
+        display:none;
+    }
+
+    .text-1{
+        text-align: center;
+        width:100%;
+        height:89%;
+        position:static;
+    }
+
+    .text-1 ul{
+        display: inline-block;
+    }
+
+    .text-1 li{
+        text-align: left;
+    }
+
+    .container-btn1{
+        display:flex;
+        justify-content:center;
+    }
+
+    
+}
+
+@media screen and (max-width:560px){
+
+    nav.desktop-menu{
+        display:none;
+    }
+
+    .mobile{
+        display:block;
+        background-color:#472562;
+        margin-top: 1px;
+        opacity:0;
+        transition: 0.4s;
+        height:250px;
+    }
+
+    .mostrar{
+        opacity:1 !important;
+    }
+
+    .container i{
+        display:block;
+        text-align: end;
+        padding:10px;
+        margin:10px 0;
+        font-size:26px;
+        color:white;
+
+    }
+
+    .mobile a{
+        display:flex;
+        justify-content:center;
+        text-decoration:none;
+        margin-bottom:30px;
+        font-size:23px;
+        color:white;
+        border-bottom:1px solid rgba(0, 0, 0, 0.378);
+        
+    }
+
+    .mobile a:first-child{
+        margin-top:35px;
+    }
+
+    .logo{
+        position:relative;
+        left:-20px;
+    }
+
+    .chamada-1{
+        position:absolute;
+        left:10%;
+        top:290px;
+        text-align: center;
+    }
+
+    .container-btn1{
+        display:flex;
+        justify-content: center;
+    }
+
+    .ss3{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .pt1{
+        width:100%;
+        height:50%;
+    }
+
+    .pt1 h2{
+        position:initial;
+        margin-top: 110px;
+    }
+
+    .pt1 p{
+        color:white;
+        position:relative;
+        top:-290px
+    }
+
+    .pt2{
+        width:100%;
+        height:50%;
+    }
+
+    .pt2 h2{
+        position:initial;
+    }
+
+    .pt2 p{
+        position:relative;
+        top:-290px;
+    }
+
+    .box{
+        height:70%;
+        width:90%;
+    }
+
+    .box p{
+        top:-40px;
+    }
+
+    section.ss4{
+        min-height:1150px;
+    }
+
+    .form{
+        width:100%;
+        float:none;
+        display: inline-block;
+        text-align: center;
+        padding-right:2%;
+    }
+
+    .form form input[type=submit]{
+        display:inline-block;
+        text-align: center;
+    }
+
+    .googleMaps{    
+        width:100%;
+    }
+    
+    .googleMaps h2{
+        padding-left:2%;
+    }
+
+    .maps{
+        width:95%;
+        height:50%;
+        margin-left:2%;
+    }
+
+    footer{
+        text-align: center;
+    }
+    
+    footer p:nth-child(1){
+        float:none;
+    
+    }
+    
+    footer p:nth-child(2){
+        float: none;
+        margin-top:8px;
+    }
+}
+@media screen and (max-width:390px){
+    .box{
+        display:none;
+    }
+}
